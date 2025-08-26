@@ -8,6 +8,7 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
       background: #fff;
       color: #0f172a;
       line-height: 1.6;
@@ -46,27 +47,6 @@
       color: #0072ce;
       margin-top: 1rem;
     }
-    .hero {
-      text-align: center;
-      padding: 4rem 1rem;
-      background: #f8fafc;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
-      color: #0072ce;
-      margin-bottom: 1rem;
-    }
-    .hero span {
-      color: #37c871;
-    }
-    .card {
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 1rem 1.5rem;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-      text-align: justify;
-    }
     footer {
       border-top: 1px solid #ddd;
       padding: 1rem 2rem;
@@ -74,21 +54,13 @@
       color: #555;
       text-align: center;
     }
-    a.button {
-      display: inline-block;
-      margin: 0.5rem 0.25rem;
-      padding: 0.75rem 1.25rem;
+    .card {
+      border: 1px solid #ddd;
       border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    a.primary {
-      background: #0072ce;
-      color: #fff;
-    }
-    a.secondary {
-      border: 2px solid #0072ce;
-      color: #0072ce;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      background: #fafafa;
+      text-align: justify;
     }
   </style>
 </head>
@@ -103,17 +75,11 @@
     </nav>
   </header>
 
-  <!-- Introducción -->
-  <section class="hero" id="introduccion">
-    <h1><span>El 1º de septiembre</span><br/>Estrenamos oficinas</h1>
-    <p style="text-align: justify;">
-      El 1º de septiembre estrenamos oficinas en José Luis Lagrange 103, Polanco, marcando un impulso en nuestra Visión 2030: Tecnología de clase mundial al servicio de las familias, soluciones financieras sólidas y transporte seguro.
-    </p>
-    <a href="#bienvenida" class="button secondary">Leer Carta de Bienvenida</a>
-    <a href="#instrucciones" class="button primary">Ver Instrucciones del Día 1</a>
+  <section id="introduccion">
+    <h2>Introducción</h2>
+    <p>El 1º de septiembre estrenamos oficinas en José Luis Lagrange 103, Polanco, marcando un impulso en nuestra Visión 2030: Tecnología de clase mundial al servicio de las familias, soluciones financieras sólidas y transporte seguro.</p>
   </section>
 
-  <!-- Carta de Bienvenida -->
   <section id="bienvenida">
     <h2>Carta de Bienvenida</h2>
     <p>Querido equipo:</p>
@@ -125,25 +91,25 @@
     <p>Nada de esto sería posible sin ustedes, nuestros colaboradores. Son la fuerza que impulsa cada avance, quienes convierten la visión en acción y hacen de esta empresa un lugar donde la innovación se vuelve realidad todos los días. El futuro que imaginamos solo puede construirse con su pasión, compromiso y talento.</p>
     <p>Nuestra nueva sede simboliza esa ambición. Es un espacio creado para multiplicar ideas, fortalecer la colaboración y materializar lo que parecía inalcanzable hace apenas unos años. Cada paso nos acerca más a consolidarnos como líderes globales en soluciones educativas y de movilidad.</p>
     <p>En breve recibirán los detalles de cómo haremos esta transición de manera práctica. Hoy lo más importante es quedarnos con la certeza de que juntos estamos diseñando el futuro.</p>
-    <p><strong>Atentamente</strong><br/>Fermín Pliego De Anda<br/><span style="color:#555">Fundador y Presidente del Consejo de Administración</span></p>
+    <p>Atentamente</p>
+    <p>Fermín Pliego De Anda<br>Fundador y Presidente del Consejo de Administración</p>
   </section>
 
-  <!-- Ubicación -->
   <section id="ubicacion">
     <h2>Ubicación</h2>
     <p>José Luis Lagrange 103, Piso 10, Colonia Polanco Primera Sección, Alcaldía Miguel Hidalgo, C.P. 11510 , Ciudad de México, México</p>
-    <p><a href="https://maps.app.goo.gl/xFkN5M5uGwuzXVCf6" target="_blank" class="button secondary">Abrir en Google Maps</a></p>
+    <p><a href="https://maps.app.goo.gl/xFkN5M5uGwuzXVCf6" target="_blank">Abrir en Google Maps</a></p>
   </section>
 
-  <!-- Instrucciones Día 1 -->
   <section id="instrucciones">
-    <h2>Instrucciones Día 1 – 1 de septiembre de 2025</h2>
-    <p>Estimados colaboradores: Les compartimos las indicaciones para la visita a nuestras oficinas con motivo de la inauguración de las instalaciones:</p>
+    <h2>Instrucciones Día 1 – 1 de septiembre DE 2025</h2>
+    <p>Estimados colaboradores:<br>
+    Les compartimos las indicaciones para la visita a nuestras oficinas con motivo de la inauguración de las instalaciones:</p>
 
     <div class="card">
       <h3>Llegada</h3>
       <ul>
-        <li>La llegada será a partir de las <strong>8:00</strong> de la mañana, en diferentes grupos.</li>
+        <li>La llegada será a partir de las 8:00 de la mañana, en diferentes grupos.</li>
         <li>Jonathan Barrientos les hará llegar un correo electrónico con el grupo al que pertenecen.</li>
       </ul>
     </div>
@@ -151,7 +117,7 @@
     <div class="card">
       <h3>Estacionamiento</h3>
       <ul>
-        <li>Solicitamos <strong>no acudir con vehículo</strong>. Ese día se les asignará su cajón de estacionamiento, pero es importante que primero realicen el recorrido a pie.</li>
+        <li>Solicitamos no acudir con vehículo. Ese día se les asignará su cajón de estacionamiento, pero es importante que primero realicen el recorrido a pie.</li>
         <li>En caso de que sea indispensable acudir en vehículo, existen estacionamientos cercanos (todos con costo):</li>
         <ol>
           <li>Estacionamiento del Vips a un costado del edificio.</li>
@@ -168,12 +134,12 @@
 
     <div class="card">
       <h3>Vestimenta</h3>
-      <p>El código de vestimenta para este día será <strong>casual-formal</strong>.</p>
+      <p>El código de vestimenta para este día será casual-formal.</p>
     </div>
 
     <div class="card">
       <h3>Identificación</h3>
-      <p>Es indispensable portar su <strong>credencial de la empresa</strong> o, en su defecto, una <strong>identificación oficial</strong>.</p>
+      <p>Es indispensable portar su credencial de la empresa o, en su defecto, una identificación oficial.</p>
     </div>
 
     <div class="card">
@@ -183,7 +149,7 @@
 
     <div class="card">
       <h3>Contacto</h3>
-      <p>Cualquier duda favor de comunicarse con <strong>Eric Barrera</strong>, de preferencia antes del 1 de septiembre, para poder brindarles la atención que todos merecen.</p>
+      <p>Cualquier duda favor de comunicarse con Eric Barrera, de preferencia antes del 1 de septiembre, para poder brindarles la atención que todos merecen.</p>
     </div>
   </section>
 
